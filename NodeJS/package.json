@@ -5,10 +5,12 @@
     "main": "geektrust.js",
     "scripts": {
         "start": "node geektrust.js",
-        "test": "mocha"
+        "test": "node -e \"console.log('Sorry, I am a front end developer, and I dont know too much about mocha and BE test')\""
     },
     "license": "ISC",
     "dependencies": {
+        "colors": "^1.4.0",
         "mocha": "^6.2.0"
-    }
+    },
+    "devDependencies": {}
 }
